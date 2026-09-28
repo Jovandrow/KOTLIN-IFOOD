@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_carrinho.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_carrinho.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/drawable-nodpi_ic_xburguer.jpg.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/drawable-nodpi/ic_xburguer.jpg"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_suco.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_suco.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_milkshake.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_milkshake.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/drawable-nodpi_ic_pizza.jpg.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/drawable-nodpi/ic_pizza.jpg"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_xburguer.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_xburguer.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_paodequeijo.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_paodequeijo.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_coxinha.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_coxinha.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/drawable-nodpi_ic_milkshake.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/drawable-nodpi/ic_milkshake.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_dados_entrega.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_dados_entrega.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/drawable-nodpi_ic_hotdog.jpg.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/drawable-nodpi/ic_hotdog.jpg"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_pizza.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_pizza.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_comprovante.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_comprovante.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/drawable-nodpi_ic_refrigerante.jpg.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/drawable-nodpi/ic_refrigerante.jpg"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_pastel.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_pastel.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_refrigerante.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_refrigerante.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_sobre.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_sobre.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_hotdog.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_hotdog.xml"
+    },
+    {
+        "merged": "com.exemplo.lanchonete.app-merged_res-31:/layout_activity_batatafrita.xml.flat",
+        "source": "com.exemplo.lanchonete.app-main-33:/layout/activity_batatafrita.xml"
+    }
+]

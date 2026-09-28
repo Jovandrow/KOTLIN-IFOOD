@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre o App"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Projeto feito por Jovandro W° Junior e Eduardo Nascimento, o projeto visa simular um gerenciador de entrega como o ifood, utilizado somente o que foi ensinado em sala para a criação do app."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como funciona o código"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cada tela do app é uma Activity em Kotlin ligada a um layout em XML. Os botões usam setOnClickListener e a troca de telas é feita com Intent e startActivity."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cada produto tem um preço base e seus adicionais em CheckBox. Ao tocar em ADICIONAR AO CARRINHO, o código soma os adicionais marcados ao preço base, monta a descrição do item e cria um ItemPedido com descrição, quantidade e preço. A quantidade é uma variável que os botões + e - aumentam ou diminuem (mínimo 1 e máximo 10), e o valor do item é o preço unitário vezes a quantidade."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Os itens ficam guardados no objeto Carrinho, uma lista compartilhada entre todas as telas enquanto o app está aberto (não usa banco de dados). Ele também calcula o total e limpa o pedido no final."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O nome e o endereço da tela de entrega seguem para o comprovante com putExtra e getStringExtra, e o código de 4 dígitos para receber o pedido é sorteado com Random."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As fotos dos 4 primeiros itens ficam dentro do app (pasta drawable). As fotos dos 6 itens novos são baixadas de links da internet por uma função própria, por isso o aparelho precisa de conexão para exibi-las."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como funciona para o usuário"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Na tela inicial o usuário vê o cardápio com 10 opções, cada uma com sua foto. Ao tocar em um item, abre a tela daquele produto, onde ele escolhe os adicionais (cada um soma um valor ao preço base) e a quantidade, usando os botões + e -. Ao tocar em ADICIONAR AO CARRINHO, o item é guardado e o usuário volta ao cardápio para pedir mais coisas."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Em VER CARRINHO ele confere todos os itens, com a quantidade e o preço de cada um, e o total do pedido. Ao tocar em FINALIZAR PEDIDO, informa o nome e o endereço de entrega (os dois são obrigatórios). Por fim, o app mostra o comprovante com o resumo do pedido e um código de 4 dígitos, que serve para receber a entrega. O botão FAZER NOVO PEDIDO limpa o carrinho e volta para o início."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E se baseia nisso o projeto."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obrigado!"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Versão 1.0"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLTAR"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
